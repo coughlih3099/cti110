@@ -18,7 +18,7 @@ def subtraction():
       user_input = int(input("Try again: "))
 
     num_guesses += 1
-    retry = check(user_input, subtracted)
+    retry = check.check(user_input, subtracted)
     continue
   
   print(f"Number of guesses: {num_guesses}\n")
