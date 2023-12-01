@@ -17,7 +17,7 @@ def addition():
       user_input = int(input("Try again: "))
 
     num_guesses += 1
-    retry = check(user_input, summed)
+    retry = check.check(user_input, summed)
     continue
   
   print(f"Number of guesses: {num_guesses}\n")
