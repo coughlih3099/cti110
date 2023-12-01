@@ -14,9 +14,9 @@ while (keep_going):
   option = int(input("Please choose one of the menu options: "))
 
   if (option == 1):
-    add()
+    add.addition()
   elif (option == 2):
-    sub()
+    sub.subtraction()
   elif (option == 3):
     print("Thank you for playing")
     keep_going = False
