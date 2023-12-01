@@ -1,3 +1,6 @@
+import add
+import sub
+
 print("Welcome to Math Quiz\n\n\n\n")
 
 keep_going = True
